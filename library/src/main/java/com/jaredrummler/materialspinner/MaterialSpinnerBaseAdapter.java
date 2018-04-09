@@ -22,6 +22,7 @@ import android.content.res.Configuration;
 import android.os.Build;
 import android.support.annotation.ColorInt;
 import android.support.annotation.DrawableRes;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,6 +49,7 @@ public abstract class MaterialSpinnerBaseAdapter<T> extends BaseAdapter {
       convertView = inflater.inflate(R.layout.ms__list_item, parent, false);
       textView = (TextView) convertView.findViewById(R.id.tv_tinted_spinner);
       textView.setTextColor(textColor);
+      textView.setGravity(Gravity.CENTER);
       if (backgroundSelector != 0) {
         textView.setBackgroundResource(backgroundSelector);
       }
