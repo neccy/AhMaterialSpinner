@@ -55,7 +55,7 @@ Download
 Download [the latest AAR](https://repo1.maven.org/maven2/com/jaredrummler/material-spinner/1.2.5/material-spinner-1.2.5.aar) or grab via Gradle:
 
 ```groovy
-compile 'com.jaredrummler:material-spinner:1.2.5'
+compile 'com.github.neccy:MaterialSpinnerAh:v1.0.2'
 ```
 or Maven:
 ```xml
